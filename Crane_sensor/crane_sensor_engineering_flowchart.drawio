@@ -1,0 +1,141 @@
+<mxfile host="Electron" modified="2024-03-03T23:37:29.790Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="sriydbzZpE0jjuIecYOD" version="23.1.5" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="784" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Validation Train Data (2016-2017)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="140" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-1" value="自动化工业吊车传感器校准方案" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="20" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-6" value="核对与实际测试" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-7" value="训练模型 (RBF)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-11" value="NOTES&lt;br&gt;Real Sensor Fusion Error = FE&lt;br&gt;Ideal Sensor Fusion Error =&amp;nbsp; FÊ&lt;br&gt;Perfect Sensor Fusion Error = 0&lt;br&gt;(i.e. images of different sensors perfectly overlap)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="20" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="260" as="sourcePoint" />
+            <mxPoint x="464" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="464" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-14" value="FE &amp;gt;FÊ&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8q8LnB--us98rcI7X055-12">
+          <mxGeometry x="0.3258" y="3" relative="1" as="geometry">
+            <mxPoint x="9" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="8q8LnB--us98rcI7X055-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="290" as="sourcePoint" />
+            <mxPoint x="340" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-16" value="FE&amp;lt;=FÊ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8q8LnB--us98rcI7X055-15">
+          <mxGeometry x="0.0154" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-17" value="参数，代码，传感器调整" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="8q8LnB--us98rcI7X055-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="210" as="sourcePoint" />
+            <mxPoint x="220" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8q8LnB--us98rcI7X055-17" target="8q8LnB--us98rcI7X055-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="280" as="sourcePoint" />
+            <mxPoint x="460" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-22" value="Test Data (2019-2024)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="340" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-23" value="Validation Data&lt;br&gt;(2017-2019)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8q8LnB--us98rcI7X055-7" target="8q8LnB--us98rcI7X055-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="340" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8q8LnB--us98rcI7X055-22" target="8q8LnB--us98rcI7X055-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="400" as="sourcePoint" />
+            <mxPoint x="250" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-28" value="FE&amp;gt;=FÉ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8q8LnB--us98rcI7X055-27">
+          <mxGeometry x="0.4561" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8q8LnB--us98rcI7X055-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="500" as="sourcePoint" />
+            <mxPoint x="360" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-30" value="0&amp;lt;=FE&amp;lt;FÉ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8q8LnB--us98rcI7X055-29">
+          <mxGeometry x="0.0444" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-31" value="Radial Basis Function Neural Network (RBF) help reduces error of different sensors producing different positions by n&lt;span style=&quot;background-color: initial;&quot;&gt;on-linear mapping of sensor data features and the actual positions of objects, by generalization to correct discrepancies in new operational scenarios, and by robustness to noise in complex industrial environment. Our trained RBF model outputs estimates of the parameters (elements of the R matrices [rotation required for fusion; angular adjustment] and T matrices [ translation required for fusion; positional adjustment] that align the sensors&#39; views. FÊ is generated from our models&#39; transformed sensor data to compare with FE, in which results give us clues to changes to code, fixed sensor parameters, and model parameters.&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="130" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-37" value="ICP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="155" y="540" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8q8LnB--us98rcI7X055-6" target="8q8LnB--us98rcI7X055-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="440" as="sourcePoint" />
+            <mxPoint x="540" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8q8LnB--us98rcI7X055-37" target="8q8LnB--us98rcI7X055-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="600" as="sourcePoint" />
+            <mxPoint x="270" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="600" />
+              <mxPoint x="360" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-40" value="Feedback" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8q8LnB--us98rcI7X055-39">
+          <mxGeometry x="-0.0377" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-42" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;This model aims to improve the accuracy of automatic crane actions in order to improve effectiveness of industrial port facilities and improve worker safety.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="620" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8q8LnB--us98rcI7X055-43" value="Iterative Closest Point (ICP) algorithm complements RBF by fine-tuning the alignment of 3D models or point clouds. ICP iteratively refine RBF&#39;s alignment to minimize two dataset discrepancy until changes in transformation parameters (R and T) are below a certain threshold, indicating an optimal alignment of different sensors&#39; visions. Live feedback and on-site adjustments can be used to adjust ICP parameters to adapt to certain real-world conditions. As operational environment changes, ICP can be reapplied to ensure optimal alignment." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="410" width="270" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
